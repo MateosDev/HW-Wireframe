@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Wire Frame</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<!--
+Header
+Nav
+Aside (With a Heading)
+Section (With a Heading)
+Article (With a Heading) contained within the Section
+Headers contained within the Article
+Paragraph contained within the Article-->
+
+    <body>
+      <!--Main Container-->
+        <div id="mainContainer">
+            <header id="mainHeader">
+                header
+            </header>
+
+            <nav>
+                nav
+            </nav>
+            <!--Inline Container-->
+            <div id="inlineContainer" class="clearfix">
+                <section>
+                        <header id="sectionHeader">section</header>
+                        <article>
+                            <header id="articleHeader">article</header>
+                            <header id="articleHeadings">h1, h2, h3</header>
+                            <p>paragraph start</p>
+                        </article>
+                </section>
+
+                    <div id="asideContainer">
+                        aside
+                    </div>
+
+            </div>
+            
+            <footer>
+                footer
+            </footer>
+        </div>
+    </body>
+</html>
